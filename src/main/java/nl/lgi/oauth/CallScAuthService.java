@@ -9,10 +9,7 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
-import static com.sun.activation.registries.LogSupport.log;
-
 @Component
-@Slf4j
 public class CallScAuthService {
 
     @Autowired
